@@ -14,7 +14,15 @@ Algunas características clave de Flask:
 
 En esencia, Flask proporciona los bloques de construcción principales para aplicaciones web, y puedes personalizarlo con herramientas adicionales para satisfacer tus necesidades específicas.
 
-## Resful
+## ResTful
+Primero aclaremos que es un  API (interfaz de programación de aplicaciones) define las reglas que debes seguir para comunicarte con otros sistemas de software. Los desarrolladores exponen o crean APIs para que otras aplicaciones puedan comunicarse con sus aplicaciones de manera programática. 
+Es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet.que se adhiere a las restricciones del estilo arquitectónico REST y permite la interacción con servicios web RESTful
+
+- Representational State Transfer (REST) es una arquitectura de software que impone condiciones sobre cómo debe funcionar un API.
+- Inicialmente, REST se creó como una guía para gestionar la comunicación en una red compleja como Internet.
+- Puedes usar la arquitectura basada en REST para admitir una comunicación eficiente y confiable a gran escala.
+Los desarrolladores de APIs pueden diseñar APIs utilizando varias arquitecturas diferentes. Las APIs que siguen el estilo arquitectónico REST se llaman APIs REST. Los servicios web que implementan la arquitectura REST se denominan servicios web RESTful.
+ Es como un puente entre clientes (personas o sistemas de software) y recursos en la web. Los recursos pueden ser imágenes, videos, texto, números o cualquier tipo de datos. Estos APIs permiten a las aplicaciones comunicarse de manera segura, confiable y eficiente a través de estándares de comunicación de software
 
 ## Postman
 Postman es una herramienta popular utilizada por desarrolladores de software para probar, desarrollar y documentar APIs (Interfaz de Programación de Aplicaciones). Funciona como un cliente de API que permite enviar solicitudes HTTP a través de diferentes métodos (GET, POST, PUT, DELETE, etc.) y visualizar las respuestas de manera clara y organizada. Con Postman, los desarrolladores pueden crear y organizar colecciones de solicitudes, lo que facilita la automatización de pruebas, la colaboración en equipo y la documentación de APIs. También ofrece características avanzadas como la configuración de variables de entorno, pruebas automatizadas, autenticación, y la posibilidad de simular diferentes escenarios de uso de la API.
@@ -42,3 +50,6 @@ Las operaciones CRUD son esenciales para la gestión de cualquier base de datos,
 - Assembler Institute. (sin fecha). ¿Qué es Postman? [Link](https://assemblerinstitute.com/blog/que-es-postman/ "Link")
 - Codecademy. (sin fecha). ¿Qué es CRUD? [Link](https://www.codecademy.com/article/what-is-crud "Link")
 - Analytics Vidhya. (2021, octubre 10). Flask Python: Guía completa para principiantes. [Link](https://flask.palletsprojects.com/ "Link")
+- ¿Qué es una API de RESTful? - Explicación de API de RESTful[Link](https://aws.amazon.com/es/what-is/restful-api/_"Link")
+- API Description Languages, ¡Que es un API? [Link](https://www.astera.com/type/blog/rest-api-definition/ "Link")
+- IBM. (sin fecha) ,RestFul, [Link](https://www.ibm.com/topics/rest-apis "Link")
