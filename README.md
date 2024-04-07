@@ -6,7 +6,7 @@ MongoDB se enfoca en su papel como un sistema de base de datos NoSQL diseñado p
 ## Flask
 Flask es un marco web ligero escrito en Python. Se considera un microframework porque ofrece una base básica para construir aplicaciones web, y puedes agregar características utilizando bibliotecas externas según sea necesario. Esto lo hace versátil y adecuado tanto para principiantes como para desarrolladores experimentados.
 
-Aquí tienes algunas características clave de Flask:
+Algunas características clave de Flask:
 
 - Simple y Fácil de Aprender: Flask tiene un diseño limpio y minimalista, lo que lo convierte en una excelente opción para comenzar con el desarrollo web en Python. Puedes entender rápidamente los fundamentos y comenzar a construir aplicaciones.
 - Flexible y Escalable: La estructura modular de Flask te permite extender su funcionalidad con bibliotecas de terceros. Esto te permite crear aplicaciones web simples o complejas según tus necesidades.
