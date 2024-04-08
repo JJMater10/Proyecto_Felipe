@@ -41,9 +41,15 @@ Las operaciones CRUD son esenciales para la gestión de cualquier base de datos,
 
 
 # Metodologia
+La implementación de un sistema de CRUD con Python, Flask, MongoDB y RESTful implica un enfoque paso a paso que abarca desde la planificación inicial hasta el despliegue final del sistema. En primer lugar, se lleva a cabo un análisis detallado de los requisitos del proyecto para comprender completamente las necesidades de los usuarios y del sistema. Esto implica identificar qué datos se manejarán, qué operaciones CRUD serán necesarias y cómo se accederá a la API, ya sea a través de un navegador web o mediante solicitudes HTTP.
 
+Una vez establecidos los requisitos, se procede a configurar el entorno de desarrollo. Esto implica la instalación y configuración de todas las herramientas necesarias, como Python, Flask y MongoDB. Se establece una conexión con la base de datos MongoDB y se definen los modelos de datos necesarios para representar la estructura de la información que se almacenará. Luego, se crea una aplicación Flask, donde se configuran las rutas y los controladores para manejar las solicitudes HTTP entrantes, como GET, POST, PUT y DELETE, correspondientes a las operaciones CRUD.
 
+A medida que se implementan las operaciones CRUD para cada recurso, es fundamental asegurar la validación de datos para garantizar la integridad y consistencia de la información almacenada. Esto puede implicar verificar la validez de los datos antes de realizar operaciones de creación o actualización, así como también establecer restricciones de integridad referencial si es necesario. Además, se sigue de cerca los principios de diseño RESTful para garantizar una interfaz de API coherente y fácil de usar.
 
+Una vez que la implementación está completa, se llevan a cabo pruebas exhaustivas para asegurar que todas las funciones se ejecuten como se esperaba y que la API sea estable y confiable. Esto puede implicar la realización de pruebas unitarias, pruebas de integración y pruebas de aceptación, y finalmente, se documenta la API de manera adecuada
+
+Una vez desplegado, el sistema estará listo para su uso por parte de los usuarios finales, proporcionando una solución robusta y escalable para la gestión de datos mediante operaciones CRUD.
 
 # Bibliografia
 - IBM. (sin fecha). MongoDB. [Link](https://www.ibm.com/es-es/topics/mongodb "Link")
