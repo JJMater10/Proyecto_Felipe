@@ -52,18 +52,18 @@
                         <h5 class="text-center">Crear Cliente</h5>
                     </div>
                     <div class="card-body">
-                        <form action="/products" method="POST">
+                        <form action="/clientes" method="POST">
                             <div class="mb-3">
                                 <label class="form-label">Nombre</label>
-                                <input type="text" class="form-control" name="name">
+                                <input type="text" class="form-control" name="nombre">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Apellido</label>
-                                <input type="text" class="form-control" name="price">
+                                <input type="text" class="form-control" name="apellido">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Edad</label>
-                                <input type="text" class="form-control" name="quantity">
+                                <input type="text" class="form-control" name="edad">
                             </div>
                             <button class="btn btn-primary" type="submit">Guardar</button>
                         </form>
@@ -78,24 +78,24 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-group">
-                            {% for product in products %}
+                            {% for cliente in clientes %}
                                 <li class="list-group-item mb-3">
-                                    <form action="/edit/{{product.name}}" method="POST">
+                                    <form action="/edit/{{cliente.nombre}}" method="POST">
                                         <div class="mb-3">
                                             <label class="form-label">Nombre</label>
-                                            <input type="text" class="form-control" value="{{product.name}}" name="name">
+                                            <input type="text" class="form-control" value="{{cliente.nombre}}" name="nombre">
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Apellido</label>
-                                            <input type="text" class="form-control" value="{{product.quantity}}" name="quantity">
+                                            <input type="text" class="form-control" value="{{cliente.edad}}" name="edad">
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label">Edad</label>
-                                            <input type="text" class="form-control" value="{{product.price}}" name="price">
+                                            <input type="text" class="form-control" value="{{cliente.apellido}}" name="apellido">
                                         </div>
                                         <div class="d-grid gap-2">
                                             <button class="btn btn-primary" type="submit">Editar</button>
-                                            <a href="{{url_for('delete', product_name=product.name)}}" class="btn btn-danger">Eliminar</a>
+                                            <a href="{{url_for('delete', cliente_nombre=cliente.nombre)}}" class="btn btn-danger">Eliminar</a>
                                         </div>
                                     </form>
                                 </li>
