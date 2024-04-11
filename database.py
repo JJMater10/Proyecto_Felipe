@@ -7,7 +7,7 @@ ca = certifi.where()
 def dbConnection():
     try:
         client = MongoClient(MONGO_URI, tlsCAFile=ca)
-        db = client["dbb_products_app"]
+        db = client["dbb_clientes_app"]
     except ConnectionError:
         print('Error de conexión con la bdd')
     return db

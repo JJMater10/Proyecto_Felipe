@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, Response, jsonify, redirect, url_for
 import database as dbase  
-from product import Product
+from cliente import Cliente
 
 db = dbase.dbConnection()
 
@@ -9,48 +9,48 @@ app = Flask(__name__)
 #Rutas de la aplicación
 @app.route('/')
 def home():
-    products = db['products']
-    productsReceived = products.find()
-    return render_template('index.html', products = productsReceived)
+    clientes = db['clientes']
+    clientesReceived = clientes.find()
+    return render_template('index.html', clientes = clientesReceived)
 
 #Method Post
-@app.route('/products', methods=['POST'])
-def addProduct():
-    products = db['products']
-    name = request.form['name']
-    price = request.form['price']
-    quantity = request.form['quantity']
+@app.route('/clientes', methods=['POST'])
+def addCliente():
+    clientes = db['clientes']
+    nombre = request.form['nombre']
+    apellido = request.form['apellido']
+    edad = request.form['edad']
 
-    if name and price and quantity:
-        product = Product(name, price, quantity)
-        products.insert_one(product.toDBCollection())
+    if nombre and apellido and edad:
+        cliente = Cliente(nombre, apellido, edad)
+        clientes.insert_one(cliente.toDBCollection())
         response = jsonify({
-            'name' : name,
-            'price' : price,
-            'quantity' : quantity
+            'nombre' : nombre,
+            'apellido' : apellido,
+            'edad' : edad
         })
         return redirect(url_for('home'))
     else:
         return notFound()
 
 #Method delete
-@app.route('/delete/<string:product_name>')
-def delete(product_name):
-    products = db['products']
-    products.delete_one({'name' : product_name})
+@app.route('/delete/<string:cliente_nombre>')
+def delete(cliente_nombre):
+    clientes = db['clientes']
+    clientes.delete_one({'nombre' : cliente_nombre})
     return redirect(url_for('home'))
 
 #Method Put
-@app.route('/edit/<string:product_name>', methods=['POST'])
-def edit(product_name):
-    products = db['products']
-    name = request.form['name']
-    price = request.form['price']
-    quantity = request.form['quantity']
+@app.route('/edit/<string:cliente_nombre>', methods=['POST'])
+def edit(cliente_nombre):
+    clientes = db['clientes']
+    nombre = request.form['nombre']
+    apellido = request.form['apellido']
+    edad = request.form['edad']
 
-    if name and price and quantity:
-        products.update_one({'name' : product_name}, {'$set' : {'name' : name, 'price' : price, 'quantity' : quantity}})
-        response = jsonify({'message' : 'Producto ' + product_name + ' actualizado correctamente'})
+    if nombre and apellido and edad:
+        clientes.update_one({'nombre' : cliente_nombre}, {'$set' : {'nombre' : nombre, 'apellido' : apellido, 'edad' : edad}})
+        response = jsonify({'message' : 'Cliente ' + cliente_nombre + ' actualizado correctamente'})
         return redirect(url_for('home'))
     else:
         return notFound()
