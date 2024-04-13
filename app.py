@@ -44,7 +44,7 @@ def addCliente():
         return notFound()
 
 # Method delete
-@app.route('/delete/<string:cliente_nombre>')
+@app.route('/delete/<string:cliente_nombre>', methods=['DELETE'])
 def delete(cliente_nombre):
     clientes = db['clientes']
     clientes.delete_one({'nombre' : cliente_nombre})
