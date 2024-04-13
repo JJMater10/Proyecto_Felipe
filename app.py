@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, Response, jsonify, redirect, url_for
+from flask import Flask, render_template, request, jsonify, redirect, url_for
+from bson import ObjectId
 import database as dbase  
 from cliente import Cliente
 
@@ -6,14 +7,23 @@ db = dbase.dbConnection()
 
 app = Flask(__name__)
 
-#Rutas de la aplicación
+# Rutas de la aplicación
 @app.route('/')
 def home():
     clientes = db['clientes']
-    clientesReceived = clientes.find()
-    return render_template('index.html', clientes = clientesReceived)
+    clientesReceived = list(clientes.find())
+    # Convertimos ObjectId a strings
+    for cliente in clientesReceived:
+        cliente['_id'] = str(cliente['_id'])
 
-#Method Post
+    if 'PostmanRuntime' in request.headers.get('User-Agent'):
+        # Si la solicitud proviene de Postman, devuelve JSON
+        return jsonify(clientesReceived)
+    else:
+        # Si no, renderiza el template HTML
+        return render_template('index.html', clientes=clientesReceived)
+
+# Method Post
 @app.route('/clientes', methods=['POST'])
 def addCliente():
     clientes = db['clientes']
@@ -33,14 +43,14 @@ def addCliente():
     else:
         return notFound()
 
-#Method delete
+# Method delete
 @app.route('/delete/<string:cliente_nombre>')
 def delete(cliente_nombre):
     clientes = db['clientes']
     clientes.delete_one({'nombre' : cliente_nombre})
     return redirect(url_for('home'))
 
-#Method Put
+# Method Put
 @app.route('/edit/<string:cliente_nombre>', methods=['POST'])
 def edit(cliente_nombre):
     clientes = db['clientes']
@@ -64,8 +74,6 @@ def notFound(error=None):
     response = jsonify(message)
     response.status_code = 404
     return response
-
-
 
 if __name__ == '__main__':
     app.run(debug=True, port=4000)
