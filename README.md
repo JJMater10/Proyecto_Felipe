@@ -51,6 +51,10 @@ Una vez que la implementación está completa, se llevan a cabo pruebas exhausti
 
 Una vez desplegado, el sistema estará listo para su uso por parte de los usuarios finales, proporcionando una solución robusta y escalable para la gestión de datos mediante operaciones CRUD.
 
+## EXPLICACIÓN CODIGO
+(aqui va la explicación del codigo)
+
+
 # Bibliografia
 - IBM. (sin fecha). MongoDB. [Link](https://www.ibm.com/es-es/topics/mongodb "Link")
 - Assembler Institute. (sin fecha). ¿Qué es Postman? [Link](https://assemblerinstitute.com/blog/que-es-postman/ "Link")
