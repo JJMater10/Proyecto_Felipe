@@ -51,7 +51,7 @@ Una vez que la implementación está completa, se llevan a cabo pruebas exhausti
 
 Una vez desplegado, el sistema estará listo para su uso por parte de los usuarios finales, proporcionando una solución robusta y escalable para la gestión de datos mediante operaciones CRUD.
 
-## EXPLICACIÓN CODIGO
+## Explicación del codigo
 (aqui va la explicación del codigo)
 
 
