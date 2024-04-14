@@ -131,4 +131,21 @@
       });
     }
 </script>
+<script>
+    function editCliente(clienteNombre) {
+      const form = document.getElementById(`edit-client-${clienteNombre}`);
+      fetch(`/edit/${clienteNombre}`, {
+        method: 'POST',
+        body: new FormData(form)
+      })
+      .then(response => {
+        if (response.ok) {
+          console.log("Cliente editado");
+          // Optionally, reload the page or update the client list dynamically
+        } else {
+          console.error("Error al editar el cliente");
+        }
+      });
+    }
+  </script>
 </html>
