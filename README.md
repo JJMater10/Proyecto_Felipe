@@ -1,5 +1,8 @@
 # Marco teorico
 
+## Python 
+  El desarrollo de un CRUD (Create, Read, Update, Delete) se llevará a cabo utilizando el lenguaje Python.  Python es una herramienta poderosa y versátil en la programación, destacada por su claridad y legibilidad en el código. Este lenguaje, creado por Guido van Rossum en 1991, ha ganado popularidad en una variedad de campos, desde el desarrollo web hasta la inteligencia artificial. Su sintaxis amigable lo hace atractivo tanto para programadores novatos como experimentados. Con una amplia gama de bibliotecas y frameworks disponibles, Python facilita la construcción de diversas aplicaciones, simplificando tareas como análisis de datos, desarrollo de juegos y automatización de procesos.
+
 ## MongoDB
 MongoDB se enfoca en su papel como un sistema de base de datos NoSQL diseñado para ofrecer flexibilidad, escalabilidad y rendimiento en entornos distribuidos y aplicaciones modernas. Utilizando un modelo de datos basado en documentos JSON, MongoDB permite una representación dinámica de la información, facilitando la evolución del esquema de la base de datos con el tiempo y la gestión eficiente de datos estructurados, semi-estructurados y no estructurados. Destaca por su capacidad para escalar horizontalmente mediante la fragmentación de datos y la distribución de consultas, junto con características integradas de alta disponibilidad como la replicación y el failover automático. Ofrece un lenguaje de consultas potente, índices secundarios para mejorar el rendimiento y la capacidad de realizar consultas ad hoc sin necesidad de definir un esquema rígido de antemano, lo que lo hace idóneo para entornos de desarrollo ágil y exploración de datos en constante evolución.
 
