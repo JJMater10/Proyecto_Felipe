@@ -56,60 +56,58 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
  Describe en detalle el CRUD (Create, Read, Update, Delete) de clientes implementado en Python utilizando Flask como framework web y MongoDB como base de datos. La aplicación permite agregar, editar y eliminar clientes, y muestra una lista de clientes en una página web
 
  - Archivos Relevantes
-    app.py: Este archivo es el principal y define la aplicación Flask. Contiene las rutas para las operaciones CRUD.
-    database.py: Establece la conexión con la base de datos MongoDB.
-    cliente.py: Define la clase Cliente.
-    index.html: Es la plantilla HTML para la interfaz de usuario.
--Estructura de la Aplicación
-Modelo:
+    - app.py: Este archivo es el principal y define la aplicación Flask. Contiene las rutas para las operaciones CRUD.
+   -  database.py: Establece la conexión con la base de datos MongoDB.
+    - cliente.py: Define la clase Cliente.
+   -  index.html: Es la plantilla HTML para la interfaz de usuario.
+   
+ - Estructura de la Aplicación
+   - Modelo:
 La clase Cliente en cliente.py representa el modelo de datos para los clientes.
 Cada instancia de Cliente tiene atributos como nombre, apellido y edad.
 El método toDBCollection() convierte los atributos en un diccionario para su almacenamiento en la base de datos.
-Controlador:
+   - Controlador:
 app.py define las rutas y las funciones para manejar las operaciones CRUD.
 Las rutas incluyen:
-/: Muestra la lista de clientes.
-/clientes (método POST): Agrega un nuevo cliente.
-/delete/<string:cliente_nombre> (método DELETE): Elimina un cliente.
-/edit/<string:cliente_nombre> (método POST): Edita un cliente.
+     - /: Muestra la lista de clientes.
+     - /clientes (método POST): Agrega un nuevo cliente.
+     - /delete/<string:cliente_nombre> (método DELETE): Elimina un cliente.
+     - /edit/<string:cliente_nombre> (método POST): Edita un cliente.
 
-Vista:
-index.html es la plantilla HTML para la interfaz de usuario.
-Muestra un formulario para agregar clientes y una lista de clientes existentes.
-Los datos se presentan en una tabla.
-Conexión a la Base de Datos:
-database.py establece una conexión con MongoDB utilizando la URI proporcionada.
-La base de datos se nombra \"dbb_clientes_app\".
+ - Vista:
+      - index.html es la plantilla HTML para la interfaz de usuario.
+      - Muestra un formulario para agregar clientes y una lista de clientes existentes.
+      - Los datos se presentan en una tabla.
+      - Conexión a la Base de Datos: database.py establece una conexión con MongoDB utilizando la URI proporcionada. La base de datos se nombra \"dbb_clientes_app\".
 
-Ruta Principal (/):
-La función home() obtiene la lista de clientes desde la base de datos.
-Si la solicitud proviene de Postman, devuelve JSON; de lo contrario, renderiza el template HTML.
-Los ObjectId se convierten a strings para facilitar la visualización.
+ - Ruta Principal (/):
+    - La función home() obtiene la lista de clientes desde la base de datos. Si la solicitud proviene de Postman, devuelve JSON; de lo contrario, renderiza el template HTML.
+    - Los ObjectId se convierten a strings para facilitar la visualización.
 
-Agregar Cliente (/clientes):
-La función addCliente() obtiene los datos del formulario (nombre, apellido, edad).
-Crea un objeto Cliente con los datos proporcionados.
-Inserta el cliente en la colección de clientes.
-Redirige a la página principal.
+  - Agregar Cliente (/clientes):
+   - La función addCliente() obtiene los datos del formulario (nombre, apellido, edad).
+   - Crea un objeto Cliente con los datos proporcionados.
+   - Inserta el cliente en la colección de clientes.
+   - Redirige a la página principal.
 
-Eliminar Cliente (/delete/<string:cliente_nombre>):
-La función delete(cliente_nombre) elimina un cliente según el nombre proporcionado.
-Redirige a la página principal.
-Editar Cliente (/edit/<string:cliente_nombre>):
-La función edit(cliente_nombre) obtiene los datos del formulario (nombre, apellido, edad).
-Actualiza los datos del cliente con el nombre proporcionado.
-Redirige a la página principal.
+  - Eliminar Cliente (/delete/<string:cliente_nombre>):
+     - La función delete(cliente_nombre) elimina un cliente según el nombre proporcionado.
+	 - Redirige a la página principal.
+	 - Editar Cliente (/edit/<string:cliente_nombre>):
+	 - La función edit(cliente_nombre) obtiene los datos del formulario (nombre, apellido, edad). 
+	 - Actualiza los datos del cliente con el nombre proporcionado.
+	 - Redirige a la página principal.
 
-Interfaz de Usuario
-La página principal muestra una lista de clientes.
-El formulario permite agregar nuevos clientes.
-Cada cliente tiene opciones para editar o eliminar.
+  - Interfaz de Usuario
+   - La página principal muestra una lista de clientes.
+   - El formulario permite agregar nuevos clientes.
+   - Cada cliente tiene opciones para editar o eliminar.
 
-Tecnologías Utilizadas
-Python
-Flask (framework web)
-MongoDB (base de datos)
-Bootstrap (para estilos en la interfaz)
+  - Tecnologías Utilizadas
+    - Python
+   - Flask (framework web)
+    - MongoDB (base de datos)
+   - Bootstrap (para estilos en la interfaz)
 
 ## Replicación
 
