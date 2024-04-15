@@ -54,6 +54,21 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 ## Explicación del codigo
 (aqui va la explicación del codigo)
 
+## Replicación
+
+MongoDB Atlas crea automáticamente un sistema de replicación con tres bases de datos: una principal y dos secundarias. Si la base de datos principal falla, una de las secundarias asume su función, garantizando la continuidad del servicio.
+
+Para verificar la replicación, es necesario conectarse a la base de datos remota utilizando el shell de MongoDB. Para instalar el Shell, se puede descargar la versión 2.0.0 MSI desde la página oficial de MongoDB. Luego, se accede al cluster de la base de datos en la página de MongoDB y se elige el método de conexión deseado en "Connect". En este caso, se utilizará el metodo "Shell" de mongo. Se ejecuta la línea de comando proporcionada por MongoDB que es la siguinte:
+
+`mongosh "mongodb+srv://cluster0.773wf9g.mongodb.net/" --apiVersion 1 --username <username>`
+
+En una consola CMD o PowerShell, se remplaza el "username" con el usuario correspondiente. Se proporciona la contraseña cuando se solicite.
+
+Una vez conectado, se puede revisar el estado de la replicación ejecutando el comando:
+
+` rs.status()`
+
+Este comando mostrará la cantidad de bases de datos (generalmente tres) involucradas en la replicación, así como sus roles (primario o secundario) en la jerarquía de replicación.
 
 # Bibliografia
 - IBM. (sin fecha). MongoDB. [Link](https://www.ibm.com/es-es/topics/mongodb "Link")
