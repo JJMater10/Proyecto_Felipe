@@ -18,13 +18,14 @@ Algunas características clave de Flask:
 En esencia, Flask proporciona los bloques de construcción principales para aplicaciones web, y puedes personalizarlo con herramientas adicionales para satisfacer tus necesidades específicas.
 
 ## ResTful
-Primero aclaremos que es un  API (interfaz de programación de aplicaciones) define las reglas que debes seguir para comunicarte con otros sistemas de software. Los desarrolladores exponen o crean APIs para que otras aplicaciones puedan comunicarse con sus aplicaciones de manera programática. 
-Es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet.que se adhiere a las restricciones del estilo arquitectónico REST y permite la interacción con servicios web RESTful
+- Primero aclaremos que es un ** API **(interfaz de programación de aplicaciones) define las reglas que debes seguir para comunicarte con otros sistemas de software. Los desarrolladores exponen o crean APIs para que otras aplicaciones puedan comunicarse con sus aplicaciones de manera programática.
 
-- Representational State Transfer (REST) es una arquitectura de software que impone condiciones sobre cómo debe funcionar un API.
-- Inicialmente, REST se creó como una guía para gestionar la comunicación en una red compleja como Internet.
-- Puedes usar la arquitectura basada en REST para admitir una comunicación eficiente y confiable a gran escala.
-Los desarrolladores de APIs pueden diseñar APIs utilizando varias arquitecturas diferentes. Las APIs que siguen el estilo arquitectónico REST se llaman APIs REST. Los servicios web que implementan la arquitectura REST se denominan servicios web RESTful.
+- Restfull es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet.que se adhiere a las restricciones del estilo arquitectónico REST y permite la interacción con servicios web RESTful
+ - Representational State Transfer (REST) es una arquitectura de software que impone condiciones sobre cómo debe funcionar un API.
+ - Inicialmente, REST se creó como una guía para gestionar la comunicación en una red compleja como Internet.
+ - Puedes usar la arquitectura basada en REST para admitir una comunicación eficiente y confiable a gran escala.
+ 
+- Los desarrolladores de APIs pueden diseñar APIs utilizando varias arquitecturas diferentes. Las APIs que siguen el estilo arquitectónico REST se llaman APIs REST. Los servicios web que implementan la arquitectura REST se denominan servicios web RESTful.
  Es como un puente entre clientes (personas o sistemas de software) y recursos en la web. Los recursos pueden ser imágenes, videos, texto, números o cualquier tipo de datos. Estos APIs permiten a las aplicaciones comunicarse de manera segura, confiable y eficiente a través de estándares de comunicación de software
 
 ## Postman
