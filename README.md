@@ -102,15 +102,15 @@ Las rutas incluyen:
 	 - Redirige a la página principal.
 
   - Interfaz de Usuario
-   - La página principal muestra una lista de clientes.
-   - El formulario permite agregar nuevos clientes.
-   - Cada cliente tiene opciones para editar o eliminar.
+
+     - La página principal muestra una lista de clientes.
+     - El formulario permite agregar nuevos clientes.
+     - Cada cliente tiene opciones para editar o eliminar.
 
   - Tecnologías Utilizadas
-    - Python
-   - Flask (framework web)
-    - MongoDB (base de datos)
-   - Bootstrap (para estilos en la interfaz)
+     - Python
+     - Flask (framework web) - MongoDB (base de datos)
+     - Bootstrap (para estilos en la interfaz)
 
 ## Replicación
 
