@@ -3,8 +3,33 @@
 ## Python 
   El desarrollo de un CRUD (Create, Read, Update, Delete) se llevará a cabo utilizando el lenguaje Python.  Python es una herramienta poderosa y versátil en la programación, destacada por su claridad y legibilidad en el código. Este lenguaje, creado por Guido van Rossum en 1991, ha ganado popularidad en una variedad de campos, desde el desarrollo web hasta la inteligencia artificial. Su sintaxis amigable lo hace atractivo tanto para programadores novatos como experimentados. Con una amplia gama de bibliotecas y frameworks disponibles, Python facilita la construcción de diversas aplicaciones, simplificando tareas como análisis de datos, desarrollo de juegos y automatización de procesos.
 
-## MongoDB
-MongoDB se enfoca en su papel como un sistema de base de datos NoSQL diseñado para ofrecer flexibilidad, escalabilidad y rendimiento en entornos distribuidos y aplicaciones modernas. Utilizando un modelo de datos basado en documentos JSON, MongoDB permite una representación dinámica de la información, facilitando la evolución del esquema de la base de datos con el tiempo y la gestión eficiente de datos estructurados, semi-estructurados y no estructurados. Destaca por su capacidad para escalar horizontalmente mediante la fragmentación de datos y la distribución de consultas, junto con características integradas de alta disponibilidad como la replicación y el failover automático. Ofrece un lenguaje de consultas potente, índices secundarios para mejorar el rendimiento y la capacidad de realizar consultas ad hoc sin necesidad de definir un esquema rígido de antemano, lo que lo hace idóneo para entornos de desarrollo ágil y exploración de datos en constante evolución.
+## MongoDB Atlas
+MongoDB Atlas proporciona la principal solución de base de datos del mundo para aplicaciones modernas como un servicio en la nube totalmente automatizado. Esta plataforma, creada y operada por el mismo equipo responsable de la base de datos, permite crear y gestionar bases de datos Mongo desde cualquier lugar del mundo.
+
+Con MongoDB Atlas, la migración se simplifica enormemente, gracias a funciones avanzadas como clusters globales que permiten un acceso de baja latencia desde cualquier ubicación. La administración de bases de datos se vuelve sencilla, ya sea a través de la interfaz de usuario con unos pocos clics o mediante llamadas a la API, garantizando una infraestructura fiable y escalable.
+
+La plataforma automatiza el proceso de aprovisionamiento, configuración e implementación de la infraestructura, asegurando que los equipos obtengan los recursos necesarios de la base de datos cuando los necesiten. Además, permite escalar recursos informáticos, de memoria y de almacenamiento con facilidad.
+
+Los clústeres de MongoDB Atlas están diseñados para garantizar una alta disponibilidad y durabilidad, con clústeres de recuperación automática distribuidos geográficamente para evitar puntos únicos de falla. Además, las bases de datos se implementan en nubes privadas virtuales para garantizar el aislamiento de la red y la seguridad desde el principio.
+
+La plataforma ofrece una optimización simplificada mediante gráficos que proporcionan una visibilidad profunda del clúster, rastreando docenas de métricas clave. Y con soporte para más de 50 regiones de la nube en servicios como Amazon Web Services, Microsoft Azure y Google Cloud Platform, MongoDB Atlas está disponible en una amplia gama de entornos de nube
+
+### Herramientas de mongoDB Atlas
+#### Replicación
+
+MongoDB Atlas crea automáticamente un sistema de replicación con tres bases de datos: una principal y dos secundarias. Si la base de datos principal falla, una de las secundarias asume su función, garantizando la continuidad del servicio.
+
+Para verificar la replicación, es necesario conectarse a la base de datos remota utilizando el shell de MongoDB. Para instalar el Shell, se puede descargar la versión 2.0.0 MSI desde la página oficial de MongoDB. Luego, se accede al cluster de la base de datos en la página de MongoDB y se elige el método de conexión deseado en "Connect". En este caso, se utilizará el metodo "Shell" de mongo. Se ejecuta la línea de comando proporcionada por MongoDB que es la siguinte:
+
+`mongosh "mongodb+srv://cluster0.773wf9g.mongodb.net/" --apiVersion 1 --username <username>`
+
+En una consola CMD o PowerShell, se remplaza el "username" con el usuario correspondiente. Se proporciona la contraseña cuando se solicite.
+
+Una vez conectado, se puede revisar el estado de la replicación ejecutando el comando:
+
+` rs.status()`
+
+Este comando mostrará la cantidad de bases de datos (generalmente tres) involucradas en la replicación, así como sus roles (primario o secundario) en la jerarquía de replicación.
 
 ## Flask
 Flask es un marco web ligero escrito en Python. Se considera un microframework porque ofrece una base básica para construir aplicaciones web, y puedes agregar características utilizando bibliotecas externas según sea necesario. Esto lo hace versátil y adecuado tanto para principiantes como para desarrolladores experimentados.
@@ -119,29 +144,13 @@ Las rutas incluyen:
      - Flask (framework web) - MongoDB (base de datos)
      - Bootstrap (para estilos en la interfaz)
 
-## Replicación
-
-MongoDB Atlas crea automáticamente un sistema de replicación con tres bases de datos: una principal y dos secundarias. Si la base de datos principal falla, una de las secundarias asume su función, garantizando la continuidad del servicio.
-
-Para verificar la replicación, es necesario conectarse a la base de datos remota utilizando el shell de MongoDB. Para instalar el Shell, se puede descargar la versión 2.0.0 MSI desde la página oficial de MongoDB. Luego, se accede al cluster de la base de datos en la página de MongoDB y se elige el método de conexión deseado en "Connect". En este caso, se utilizará el metodo "Shell" de mongo. Se ejecuta la línea de comando proporcionada por MongoDB que es la siguinte:
-
-`mongosh "mongodb+srv://cluster0.773wf9g.mongodb.net/" --apiVersion 1 --username <username>`
-
-En una consola CMD o PowerShell, se remplaza el "username" con el usuario correspondiente. Se proporciona la contraseña cuando se solicite.
-
-Una vez conectado, se puede revisar el estado de la replicación ejecutando el comando:
-
-` rs.status()`
-
-Este comando mostrará la cantidad de bases de datos (generalmente tres) involucradas en la replicación, así como sus roles (primario o secundario) en la jerarquía de replicación.
-
 # Bibliografia
-- IBM. (sin fecha). MongoDB. [Link](https://www.ibm.com/es-es/topics/mongodb "Link")
+-  e-dea-co(sin fecha). MongoDB Atlas. [Link](https://www.e-dea.co/mongodb-atlas-base-de-datos-multicloud#:~:text=MongoDB%20Atlas%20es%20una%20base,Todo "Link")
 - Assembler Institute. (sin fecha). ¿Qué es Postman? [Link](https://assemblerinstitute.com/blog/que-es-postman/ "Link")
 - Codecademy. (sin fecha). ¿Qué es CRUD? [Link](https://www.codecademy.com/article/what-is-crud "Link")
 - Analytics Vidhya. (2021, octubre 10). Flask Python: Guía completa para principiantes. [Link](https://flask.palletsprojects.com/ "Link")
 - ¿Qué es una API de RESTful? - Explicación de API de RESTful[Link](https://aws.amazon.com/es/what-is/restful-api/_"Link")
 - API Description Languages, ¡Que es un API? [Link](https://www.astera.com/type/blog/rest-api-definition/ "Link")
 - IBM. (sin fecha) ,RestFul, [Link](https://www.ibm.com/topics/rest-apis "Link")
-- Rest(sin fecha). ¿que es rest?,[Link](https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/ "Link"]
+- Rest(sin fecha). ¿que es rest?. [Link](https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/ "Link")
   
