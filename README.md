@@ -17,15 +17,21 @@ Algunas características clave de Flask:
 
 En esencia, Flask proporciona los bloques de construcción principales para aplicaciones web, y puedes personalizarlo con herramientas adicionales para satisfacer tus necesidades específicas.
 
-## ResTful
+## API
 - Primero aclaremos que es un ** API **(interfaz de programación de aplicaciones) define las reglas que debes seguir para comunicarte con otros sistemas de software. Los desarrolladores exponen o crean APIs para que otras aplicaciones puedan comunicarse con sus aplicaciones de manera programática.
 
-- Restfull es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet.que se adhiere a las restricciones del estilo arquitectónico REST y permite la interacción con servicios web RESTful
+## REST
+ REST es una interfaz que permite conectar sistemas utilizando el protocolo HTTP. Su función principal es obtener y generar datos y operaciones, devolviendo esos datos en formatos específicos como XML y JSON. En la actualidad, el formato más utilizado es JSON, debido a su ligereza y legibilidad en comparación con XML. La elección entre ambos formatos dependerá de la lógica y necesidades de cada proyecto. REST se basa en HTTP y utiliza los mismos verbos: GET, POST, PUT y DELETE. Esto lo convierte en una alternativa más sencilla a SOAP, una arquitectura más compleja que trabajaba exclusivamente con XML. REST simplifica el desarrollo de APIs al permitirnos almacenar la lógica de negocio en un BACKEND y servir datos a través de recursos URL y datos limitados 
+
+## RESTFUL
+Restful es una interfaz que dos sistemas de computación utilizan para intercambiar información de manera segura a través de Internet que se adhiere a las restricciones del estilo arquitectónico REST y permite la interacción con servicios web RESTful
  - Representational State Transfer (REST) es una arquitectura de software que impone condiciones sobre cómo debe funcionar un API.
  - Inicialmente, REST se creó como una guía para gestionar la comunicación en una red compleja como Internet.
  - Puedes usar la arquitectura basada en REST para admitir una comunicación eficiente y confiable a gran escala.
+ Así como REST es el estilo de Arquitectura, RESTful es la implementación de dicha arquitectura.
+ - Entonces por simple sentido común un API RESTful es un API que fue diseñada usando la arquitectura REST. Así de sencillo estimados, no hay por qué complicarse más.
  
-- Los desarrolladores de APIs pueden diseñar APIs utilizando varias arquitecturas diferentes. Las APIs que siguen el estilo arquitectónico REST se llaman APIs REST. Los servicios web que implementan la arquitectura REST se denominan servicios web RESTful.
+ - Los desarrolladores de APIs pueden diseñar APIs utilizando varias arquitecturas diferentes. Las APIs que siguen el estilo arquitectónico REST se llaman APIs REST. Los servicios web que implementan la arquitectura REST se denominan servicios web RESTful.
  Es como un puente entre clientes (personas o sistemas de software) y recursos en la web. Los recursos pueden ser imágenes, videos, texto, números o cualquier tipo de datos. Estos APIs permiten a las aplicaciones comunicarse de manera segura, confiable y eficiente a través de estándares de comunicación de software
 
 ## Postman
@@ -137,3 +143,5 @@ Este comando mostrará la cantidad de bases de datos (generalmente tres) involuc
 - ¿Qué es una API de RESTful? - Explicación de API de RESTful[Link](https://aws.amazon.com/es/what-is/restful-api/_"Link")
 - API Description Languages, ¡Que es un API? [Link](https://www.astera.com/type/blog/rest-api-definition/ "Link")
 - IBM. (sin fecha) ,RestFul, [Link](https://www.ibm.com/topics/rest-apis "Link")
+- Rest(sin fecha). ¿que es rest?,[Link](https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/ "Link"]
+  
