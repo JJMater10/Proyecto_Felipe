@@ -88,10 +88,10 @@ Las rutas incluyen:
     - Los ObjectId se convierten a strings para facilitar la visualización.
 
   - Agregar Cliente (/clientes):
-   - La función addCliente() obtiene los datos del formulario (nombre, apellido, edad).
-   - Crea un objeto Cliente con los datos proporcionados.
-   - Inserta el cliente en la colección de clientes.
-   - Redirige a la página principal.
+     - La función addCliente() obtiene los datos del formulario (nombre, apellido, edad).
+     - Crea un objeto Cliente con los datos proporcionados.
+     - Inserta el cliente en la colección de clientes.
+     - Redirige a la página principal.
 
   - Eliminar Cliente (/delete/<string:cliente_nombre>):
      - La función delete(cliente_nombre) elimina un cliente según el nombre proporcionado.
