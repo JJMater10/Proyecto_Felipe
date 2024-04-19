@@ -86,7 +86,15 @@ Una vez que la implementación está completa, se llevan a cabo pruebas exhausti
 
 Una vez desplegado, el sistema estará listo para su uso por parte de los usuarios finales, proporcionando una solución robusta y escalable para la gestión de datos mediante operaciones CRUD.
 
-## Comandos principales para poder ejecutar el API 
+## Guia de instalación 
+
+ ###Python
+ 
+ 
+ ### Creación de base de datos en MongoDB Atlas 
+
+
+### Comandos principales para poder ejecutar el API 
 -  `pip install flask` : Instala el framework Flask, que es utilizado para construir aplicaciones web en Python.
 
 -  `pip install pymongo` : Instala el paquete Certifi, que proporciona certificados de raíz de confianza para la verificación de conexiones SSL/TLS.
@@ -94,6 +102,12 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 -  `pip install certifi` : Instala el controlador oficial de MongoDB para Python, permitiendo interactuar con bases de datos MongoDB desde Python.
 
 -  `pip install pymongo[srv]`: Instala pymongo junto con el soporte para la conexión a MongoDB utilizando la URI de conexión SRV, que es una forma de conexión recomendada para los servicios de MongoDB en la nube.
+
+### Instalación Postman
+
+
+### Rutas de Postman
+
 
 
 ## Explicación del codigo
