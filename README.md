@@ -91,9 +91,9 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 -  `pip install pymongo` : Instala el paquete Certifi, que proporciona certificados de raíz de confianza para la verificación de conexiones SSL/TLS.
 
--  `pip install certifi` : 
+-  `pip install certifi` : Instala el controlador oficial de MongoDB para Python, permitiendo interactuar con bases de datos MongoDB desde Python.
 
--  `pip install pymongo[srv]`: 
+-  `pip install pymongo[srv]`: Instala pymongo junto con el soporte para la conexión a MongoDB utilizando la URI de conexión SRV, que es una forma de conexión recomendada para los servicios de MongoDB en la nube.
 
 
 ## Explicación del codigo
