@@ -86,6 +86,16 @@ Una vez que la implementación está completa, se llevan a cabo pruebas exhausti
 
 Una vez desplegado, el sistema estará listo para su uso por parte de los usuarios finales, proporcionando una solución robusta y escalable para la gestión de datos mediante operaciones CRUD.
 
+## Comandos principales para poder ejecutar el API 
+-  `pip install flask` : Instala el framework Flask, que es utilizado para construir aplicaciones web en Python.
+
+-  `pip install pymongo` : Instala el paquete Certifi, que proporciona certificados de raíz de confianza para la verificación de conexiones SSL/TLS.
+
+-  `pip install certifi` : 
+
+-  `pip install pymongo[srv]`: 
+
+
 ## Explicación del codigo
 - CRUD de Clientes en Python con Flask y MongoDB
  Describe en detalle el CRUD (Create, Read, Update, Delete) de clientes implementado en Python utilizando Flask como framework web y MongoDB como base de datos. La aplicación permite agregar, editar y eliminar clientes, y muestra una lista de clientes en una página web
