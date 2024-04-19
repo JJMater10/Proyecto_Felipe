@@ -88,7 +88,7 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 ## Guia de instalación 
 
-## Python
+### Python
 
 - Descarga el archivo ejecutable desde la página oficial de Python. [Link](https://www.python.org/downloads/)
 <p align="center">
@@ -137,7 +137,7 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 ### Rutas Postman
 
-##### Agregar clientes:
+#### Agregar clientes:
 
 Para crear un cliente, se utilizará el método "POST". Se debe agregar la ruta del servidor en la parte superior, especificando la tabla donde se añadirá el cliente. En "key", se ingresarán los campos de la tabla, y en "value", los datos del cliente. Por último, se presiona "send" en la esquina superior derecha para guardar el cliente en la base de datos. 
 
@@ -147,7 +147,7 @@ Para crear un cliente, se utilizará el método "POST". Se debe agregar la ruta 
 
 En la parte inferior, se puede observar la correcta guardado del cliente.
 
-##### Ver clientes:
+#### Ver clientes:
 
 Para visualizar los clientes guardados en la base de datos, se utilizará el método "GET". Se debe ingresar la ruta del servidor (y de la tabla, si es necesario), luego se presiona "send" en la esquina superior derecha.
 
@@ -157,7 +157,7 @@ Para visualizar los clientes guardados en la base de datos, se utilizará el mé
 
 En la parte inferior, se pueden observar los clientes guardados en la base de datos.
 
-##### Editar clientes:
+#### Editar clientes:
 
 Para editar un cliente, se utilizará el método "POST". Se agrega la ruta del servidor seguida de "edit" y el nombre del cliente que se desea editar. Luego, en "key", se añaden los campos de la tabla, y en "value", los nuevos datos del cliente. Por último, se presiona "send" en la esquina superior derecha para guardar los cambios del cliente en la base de datos.
 
@@ -167,7 +167,7 @@ Para editar un cliente, se utilizará el método "POST". Se agrega la ruta del s
 
 En la parte inferior, se observa la correcta actualización de los datos del cliente.
 
-##### Eliminar cliente:
+#### Eliminar cliente:
 
 Para eliminar un cliente, se utilizará el método "DELETE". Se agrega la ruta del servidor seguida de "edit" y el nombre del cliente que se desea eliminar. Luego, se presiona "send" en la esquina superior derecha.
 
