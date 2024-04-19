@@ -91,19 +91,29 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 ## Python
 
 - Descarga el archivo ejecutable desde la página oficial de Python. [Link](https://www.python.org/downloads/)
-![1](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/6e00c290-ecb4-4bee-8322-9aabdde9a182)
+<p align="center">
+  <img width="50%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/6e00c290-ecb4-4bee-8322-9aabdde9a182">
+</p>
 
 - Ejecuta el archivo descargado.
-![2](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/e9e87899-6bd4-4fd4-9fc7-d5ecf4341798)
+<p align="center">
+  <img width="50%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/e9e87899-6bd4-4fd4-9fc7-d5ecf4341798">
+</p>
 
 - Haz clic en "install now".
-![3](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/1960b49b-7c3a-4d06-b0df-8d487ace9ca3)
+<p align="center">
+  <img width="50%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/1960b49b-7c3a-4d06-b0df-8d487ace9ca3">
+</p>
 
 - Espera a que finalice el proceso de instalación.
-![4](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/5170562a-e03d-48f9-a556-9d6e5f0d283b)
+<p align="center">
+  <img width="50%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/5170562a-e03d-48f9-a556-9d6e5f0d283b">
+</p>
 
 - Después de completar la instalación, haz clic en "close".
-![5](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/574c66de-0f67-4636-bdaa-324e1880dc00)
+<p align="center">
+  <img width="50%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/574c66de-0f67-4636-bdaa-324e1880dc00">
+</p>
 
 - Python ha sido correctamente instalado en el dispositivo. 
 
