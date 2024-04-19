@@ -121,6 +121,70 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 ### Creación de base de datos en MongoDB Atlas 
 
+- Nos dirigimos a la página de MongoDB Atlas e iniciamos sesión. [MongoDB Atlas](https://www.mongodb.com/es/atlas/database "MongoDB Atlas")
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/252669b4-b9b7-4d22-a6a6-61d7899a11b4" width="60%">
+<p\>
+
+- Ingresamos con nuestra cuenta de Google o de Github.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/038eed0e-3a1d-49ef-bff4-30280e886ce4" width="60%" />
+<p\>
+
+- Ya logueados nos redirige a esta página donde se ubican los proyectos y damos click a New project.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/092a8227-11ab-452c-8196-04459a8aba45" width="60%" />
+<p\>
+
+- Nos pedirá que le demos un nombre al proyecto y si usted quiere agregar una etiqueta pero eso es opcional y damos click en Next.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/8fc53cb1-32e4-446a-99e9-c31ff6324ed1" width="60%"  />
+<p\>
+
+- Nos da la opción si deseamos agregar a alguien más al proyecto para eso se deberá ingresar el correo de la persona que queremos agregar y abajo seleccionamos qué rol tendrá en el proyecto y le damos en Create Project.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/29e2f4e8-4d62-4263-a9f5-f2465317b46f" width="60%" />
+<p\>
+
+- Después damos click en Create para crear nuestra base de datos.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/fd1ac5d8-1b2c-443e-8aa6-a56d4bcf5a9e" width="60%"  />
+<p\>
+
+- Seleccionamos la opción Free.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/58baf8ba-0ea4-4c1d-aad8-4835bd858c03" width="60%"  />
+<p\>
+
+- Le damos nombre a nuestra base de datos, si queremos cambiar nuestro proveedor lo podemos hacer como también nuestra región donde se conecta nuestra base de datos y damos click en Create Deployment.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/6f619bb4-b1d3-4607-bb56-82541b6b9a3d" width="60%" />
+<p\>
+
+- Después nos pedirá un nombre de usuario y su respectiva contraseña y damos click en Create Database User.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/01267ff6-11a6-46de-b931-7aa05bf5c148" width="60%"  />
+<p\>
+
+- Después vamos a seleccionar el método conexión entonces le damos click en Chose a connection method.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/1f4188ef-7584-497e-9242-44b00f3052af" width="60%" />
+<p\>
+
+- Escogemos la opción Drivers
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/6bc7b288-dfef-46e4-9a97-5a9744fad966" width="60%"  />
+<p\>
+
+- Seleccionamos el tipo de lenguaje de código que estamos usando en nuestro proyecto en nuestro caso Python.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/0ff21230-b6d9-4ca4-bd20-7612f17c15ee" width="60%"  />
+<p\>
+
+- Y abajo nos proporcionará el código de conexión para agregarlo en nuestro proyecto, y reemplazamos el usuario y la contraseña.
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/1a4d001b-1eae-406a-9965-fbf4bcb050bc" width="60%"  />
+<p\>
 
 ### Comandos principales para poder ejecutar el API 
 -  `pip install flask` : Instala el framework Flask, que es utilizado para construir aplicaciones web en Python.
