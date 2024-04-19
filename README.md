@@ -88,10 +88,27 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 ## Guia de instalación 
 
- ###Python
- 
- 
- ### Creación de base de datos en MongoDB Atlas 
+## Python
+
+- Descarga el archivo ejecutable desde la página oficial de Python. [Link](https://www.python.org/downloads/)
+![1](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/6e00c290-ecb4-4bee-8322-9aabdde9a182)
+
+- Ejecuta el archivo descargado.
+![2](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/e9e87899-6bd4-4fd4-9fc7-d5ecf4341798)
+
+- Haz clic en "install now".
+![3](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/1960b49b-7c3a-4d06-b0df-8d487ace9ca3)
+
+- Espera a que finalice el proceso de instalación.
+![4](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/5170562a-e03d-48f9-a556-9d6e5f0d283b)
+
+- Después de completar la instalación, haz clic en "close".
+![5](https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/574c66de-0f67-4636-bdaa-324e1880dc00)
+
+- Python ha sido correctamente instalado en el dispositivo. 
+
+
+### Creación de base de datos en MongoDB Atlas 
 
 
 ### Comandos principales para poder ejecutar el API 
