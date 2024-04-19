@@ -15,6 +15,7 @@ Los clústeres de MongoDB Atlas están diseñados para garantizar una alta dispo
 La plataforma ofrece una optimización simplificada mediante gráficos que proporcionan una visibilidad profunda del clúster, rastreando docenas de métricas clave. Y con soporte para más de 50 regiones de la nube en servicios como Amazon Web Services, Microsoft Azure y Google Cloud Platform, MongoDB Atlas está disponible en una amplia gama de entornos de nube
 
 ### Herramientas de mongoDB Atlas
+
 #### Replicación
 
 MongoDB Atlas crea automáticamente un sistema de replicación con tres bases de datos: una principal y dos secundarias. Si la base de datos principal falla, una de las secundarias asume su función, garantizando la continuidad del servicio.
@@ -134,8 +135,6 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 
 ### Rutas de Postman
-
-### Rutas Postman
 
 #### Agregar clientes:
 
