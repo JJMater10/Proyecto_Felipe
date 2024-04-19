@@ -135,7 +135,47 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 
 ### Rutas de Postman
 
+### Rutas Postman
 
+##### Agregar clientes:
+
+Para crear un cliente, se utilizará el método "POST". Se debe agregar la ruta del servidor en la parte superior, especificando la tabla donde se añadirá el cliente. En "key", se ingresarán los campos de la tabla, y en "value", los datos del cliente. Por último, se presiona "send" en la esquina superior derecha para guardar el cliente en la base de datos. 
+
+<p align="center">
+  <img width="60%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/d57ad0c2-d554-4352-b878-a03e83482c50">
+</p>
+
+En la parte inferior, se puede observar la correcta guardado del cliente.
+
+##### Ver clientes:
+
+Para visualizar los clientes guardados en la base de datos, se utilizará el método "GET". Se debe ingresar la ruta del servidor (y de la tabla, si es necesario), luego se presiona "send" en la esquina superior derecha.
+
+<p align="center">
+  <img width="60%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/e2d9b734-a871-4b7a-a4ce-105bd8f4ccb4">
+</p>
+
+En la parte inferior, se pueden observar los clientes guardados en la base de datos.
+
+##### Editar clientes:
+
+Para editar un cliente, se utilizará el método "POST". Se agrega la ruta del servidor seguida de "edit" y el nombre del cliente que se desea editar. Luego, en "key", se añaden los campos de la tabla, y en "value", los nuevos datos del cliente. Por último, se presiona "send" en la esquina superior derecha para guardar los cambios del cliente en la base de datos.
+
+<p align="center">
+  <img width="60%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/a30858da-8f36-414c-b8bd-e346fd0bfad6">
+</p>
+
+En la parte inferior, se observa la correcta actualización de los datos del cliente.
+
+##### Eliminar cliente:
+
+Para eliminar un cliente, se utilizará el método "DELETE". Se agrega la ruta del servidor seguida de "edit" y el nombre del cliente que se desea eliminar. Luego, se presiona "send" en la esquina superior derecha.
+
+<p align="center">
+  <img width="60%" src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151037/cf2f0c8c-3d7f-4831-99ad-a462a5552298">
+</p>
+
+En la parte inferior, se puede observar que ya no hay ningún cliente guardado en la base de datos.
 
 ## Explicación del codigo
 - CRUD de Clientes en Python con Flask y MongoDB
