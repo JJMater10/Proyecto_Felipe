@@ -186,7 +186,12 @@ Una vez desplegado, el sistema estará listo para su uso por parte de los usuari
 <img src="https://github.com/JJMater10/Proyecto_Felipe/assets/89151104/1a4d001b-1eae-406a-9965-fbf4bcb050bc" width="60%"  />
 <p\>
 
+Y asi es como se crea una base de datos en MongoDB Atlas y tambien como conectarla con nuestro proyecto.
+
 ### Comandos principales para poder ejecutar el API 
+
+Los siguientes comandos se pueden instalar por medio del terminal de Visual Studio Code o por el cmd: 
+
 -  `pip install flask` : Instala el framework Flask, que es utilizado para construir aplicaciones web en Python.
 
 -  `pip install pymongo` : Instala el paquete Certifi, que proporciona certificados de raíz de confianza para la verificación de conexiones SSL/TLS.
