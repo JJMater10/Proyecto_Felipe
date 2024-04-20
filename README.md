@@ -201,6 +201,10 @@ Los siguientes comandos se pueden instalar por medio del terminal de Visual Stud
 -  `pip install pymongo[srv]`: Instala pymongo junto con el soporte para la conexión a MongoDB utilizando la URI de conexión SRV, que es una forma de conexión recomendada para los servicios de MongoDB en la nube.
 
 ### Instalación Postman
+- Ve al sitio web oficial de Postman:. [Link](https://www.postman.com/)
+<p align="center">
+<img src="![imagenpostman1](https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/0b5da409-e623-4acc-9bfa-5949476d6951)" />
+<p\>
 
 
 ### Rutas de Postman
