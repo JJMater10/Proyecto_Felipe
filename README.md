@@ -205,6 +205,47 @@ Los siguientes comandos se pueden instalar por medio del terminal de Visual Stud
 <p align="center">
 <img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/0b5da409-e623-4acc-9bfa-5949476d6951" />
 <p\>
+	
+- Espera hasta que la descarga se complete 
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/3f034a40-1965-44a3-bba4-d242f1ea0554" />
+<p\>
+	
+- Se descargará un archivo de instalación ejecutable de Postman en tu computadora. Por lo general, este archivo tendrá una extensión ".exe".
+una vez termine iremos a la carpeta que guardamos el archivo en nuestro caso lo guardamos en descargas por defecto
+ 
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/e6680168-ca48-491f-aaa0-6edd00f35e0e" />
+<p\>
+
+- Una vez terminado el proceso damos clik en ejecutar y el programa se comenzará a instalar 
+y a ejecutar, Haz doble clic en el archivo de instalación de Postman (con extensión .exe) para comenzar el proceso de instalación.
+ 
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/36fdd694-6e3a-4f01-a129-23f88d025904" />
+<p\>
+
+- Una vez completada la instalación, puedes iniciar Postman desde el menú de inicio o desde el acceso directo creado en el escritorio, si elegiste esta opción durante la instalación.
+luego se procede a ingresar con el correo electrónico si ya tienes cuenta o sino crea una cuenta nueva en postman 
+ 
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/2680d998-b243-498f-a2df-7a4635bf832e" />
+<p\>
+
+- Aparece el siguiente cuadro 
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/5bef7328-5552-451b-ba7d-47258aa476f5" />
+<p\>
+
+- Luego le das en los permisos para poder empezar a ejecutar postman  
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/d9d37a66-29b6-4427-9723-bac94fb8d264" />
+<p\>
+
+- Y al finalizar abrira una ventana y podras empezar a utilizar postman para tu proyecto  
+<p align="center">
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/6dfdf93e-e86b-422a-8f8e-297e4b1b79e7" />
+<p\>
 
 
 ### Rutas de Postman
