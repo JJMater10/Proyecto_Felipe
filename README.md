@@ -203,7 +203,7 @@ Los siguientes comandos se pueden instalar por medio del terminal de Visual Stud
 ### Instalación Postman
 - Ve al sitio web oficial de Postman:. [Link](https://www.postman.com/)
 <p align="center">
-<img src="![imagenpostman1](https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/0b5da409-e623-4acc-9bfa-5949476d6951)" />
+<img src="https://github.com/JJMater10/Proyecto_Felipe/assets/163372160/0b5da409-e623-4acc-9bfa-5949476d6951" />
 <p\>
 
 
