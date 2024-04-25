@@ -75,6 +75,9 @@ En otras palabras, CRUD define las acciones fundamentales que permiten manipular
 
 Las operaciones CRUD son esenciales para la gestión de cualquier base de datos, y se encuentran presentes en una amplia variedad de aplicaciones, desde software empresarial hasta sitios web.
 
+## JavaScript
+JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web. Como lenguaje de scripting del lado del servidor, se trata de una de las principales tecnologías de la World Wide Web. Por ejemplo, al navegar por Internet, en cualquier momento en el que vea un carrusel de imágenes, un menú desplegable “click-to-show” (clic para mostrar), o cambien de manera dinámica los elementos de color en una página web, estará viendo los efectos de JavaScript.
+
 
 # Metodologia
 La implementación de un sistema de CRUD con Python, Flask, MongoDB y RESTful implica un enfoque paso a paso que abarca desde la planificación inicial hasta el despliegue final del sistema. En primer lugar, se lleva a cabo un análisis detallado de los requisitos del proyecto para comprender completamente las necesidades de los usuarios y del sistema. Esto implica identificar qué datos se manejarán, qué operaciones CRUD serán necesarias y cómo se accederá a la API, ya sea a través de un navegador web o mediante solicitudes HTTP.
@@ -290,6 +293,9 @@ Para eliminar un cliente, se utilizará el método "DELETE". Se agrega la ruta d
 
 En la parte inferior, se puede observar que ya no hay ningún cliente guardado en la base de datos.
 
+### ¿Por qué Postman no puede ser utilizado para convertir una base de datos primaria en secundaria?
+Postman no puede usarse para modificar la configuración de acceso IP en MongoDB Atlas. En MongoDB Atlas, las conexiones de cliente a la base de datos están restringidas por la lista de acceso IP del proyecto, que incluye direcciones IP individuales o rangos de direcciones CIDR. Si deseas bloquear el acceso desde una IP específica, debes eliminar esa entrada de la lista de acceso IP en la configuración de tu proyecto en MongoDB Atlas.
+
 ## Explicación del codigo
 - CRUD de Clientes en Python con Flask y MongoDB
  Describe en detalle el CRUD (Create, Read, Update, Delete) de clientes implementado en Python utilizando Flask como framework web y MongoDB como base de datos. La aplicación permite agregar, editar y eliminar clientes, y muestra una lista de clientes en una página web
@@ -357,4 +363,4 @@ Las rutas incluyen:
 - API Description Languages, ¡Que es un API? [Link](https://www.astera.com/type/blog/rest-api-definition/ "Link")
 - IBM. (sin fecha) ,RestFul, [Link](https://www.ibm.com/topics/rest-apis "Link")
 - Rest(sin fecha). ¿que es rest?. [Link](https://openwebinars.net/blog/que-es-rest-conoce-su-potencia/ "Link")
-  
+- aws amazon. (sin fecha), ¿Qué es JavaScript (JS)? [Link](https://aws.amazon.com/es/what-is/javascript/ "Link")
